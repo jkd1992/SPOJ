@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"pesel","l":"Main"}]

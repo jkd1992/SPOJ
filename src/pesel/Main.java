@@ -1,8 +1,18 @@
 package pesel;
-
 import java.io.Console;
 import java.util.Iterator;
 import java.util.Scanner;
+
+
+/**
+ * Pesel
+ *
+ * Poziom:      ³atwy
+ * Czas:        0.05
+ *
+ * @see <a href="http://pl.spoj.pl/problems/JPESEL/">http://pl.spoj.pl/problems/JPESEL/</a>
+ * @author Jan Dziewulski <jan.dziewulski@onet.com.pl>
+ */
 
 public class Main {
 
