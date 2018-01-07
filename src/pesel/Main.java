@@ -3,13 +3,10 @@ import java.io.Console;
 import java.util.Iterator;
 import java.util.Scanner;
 
-
 /**
  * Pesel
- *
  * Poziom:      ³atwy
  * Czas:        0.05
- *
  * @see <a href="http://pl.spoj.pl/problems/JPESEL/">http://pl.spoj.pl/problems/JPESEL/</a>
  * @author Jan Dziewulski <jan.dziewulski@onet.com.pl>
  */
@@ -31,7 +28,6 @@ public class Main {
 		int liczba = Integer.parseInt(liczbaPakietow);
 		while(liczba<100 && liczba>0) {
 
-		
 		System.out.println("Wpisz PESEL: ");
 		
 			for (byte z = 0; z < liczba; z++) 
@@ -39,21 +35,16 @@ public class Main {
 			{
 				
 		String dane = inS.nextLine();
-		
-		
-		
+	
 		String tmpDataArray[] = dane.split("");
 		
-		
-		
-		
-			for (byte i = 0; i < tablicapesel.length; i++) {
-			
+			for (byte i = 0; i < tablicapesel.length; i++)
+			{
 				tablicapesel[i]= Integer.parseInt(tmpDataArray[i]);
 			}	
 			
-			
-			for (byte i = 0; i < wskaznik.length; i++) {
+			for (byte i = 0; i < wskaznik.length; i++) 
+			{
 				
 				 suma =(short)(tablicapesel[i]*wskaznik[i]);
 				 sumacal +=suma;
@@ -72,15 +63,7 @@ public class Main {
 		System.out.println("B³¹d");
 		
 	}
-		
-		
-
-		
-		
-		
-		
-		
-		
+	
 	}
 
 
